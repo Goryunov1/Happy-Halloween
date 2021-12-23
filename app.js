@@ -6,19 +6,18 @@ gsap.to("#img",{
     y : 500,
 })
 
-gsap.from("#wolf",{
-    scrollTrigger : {
-        scrub:0.5,
-    },
-    x : 400,
-   
-})
-
-gsap.from("#castle",{
+gsap.to("#wolf",{
     scrollTrigger : {
         scrub:0.5,
     },
     x : -100,
+})
+
+gsap.to("#castle",{
+    scrollTrigger : {
+        scrub:0.5,
+    },
+    x : 100,
    
 })
 
@@ -30,10 +29,10 @@ gsap.to("#bats",{
    
 })
 
-// gsap.from("#bg",{
-//     scrollTrigger : {
-//         scrub:0.5,
-//     },
-//     scale : 1.1,
+gsap.to("#bg",{
+    scrollTrigger : {
+        scrub:0.5,
+    },
+    scale : 1.1,
    
-// })
+})
